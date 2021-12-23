@@ -1,5 +1,5 @@
 {
-  "homepage": "https://hqnguyen99.github.io/hqnguyen99.github.io",
+  "homepage": "http://hqnguyen99.github.io",
   "name": "quyen-resume",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +12,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
