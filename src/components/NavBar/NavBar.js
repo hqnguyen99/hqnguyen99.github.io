@@ -22,11 +22,10 @@ const Projects = {
 const NavBar = () => {
     return (
         <div className="flex-container">
-            <div className="name"><a>{Name}</a></div>
-            <div style={styles}>
+            <div className={styles.navBar}><a>{Name}</a></div>
+            <div className={styles.navBar}>
                 <ul >
                     <li ><a href={Projects.link}>{Projects.text}</a></li>
-                    <li ><a href={Work.link}>{Work.text}</a></li>
                     <li ><a href={Resume.link}>{Resume.text}</a></li>
                     <li ><a href={Home.link}>{Home.text}</a></li>
 

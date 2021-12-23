@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+a.linkBlock {
+  
+  border-radius: 0.3125em;
+  color: #2a2a2a;
+  text-decoration: none;
+  display: inline-block;
+  margin:auto;
+  width: 85%;
+  padding: 0.625em;
+  box-shadow: 0 0.0625em 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+a.linkBlock:hover{
+  box-shadow: 0 1.3125em 1.3125em rgba(0,0,0,0.3);
+  
+}
+
+.projectDetails {
+  margin: auto;
+  padding-left: 0.625em;
+}
+.projectDetails h2{
+  padding-top: 4.375em;
+  font-size: 1.25em;
+  padding-bottom: 1.875em;
+  padding-left: 0.625em;
+  font-family: 'Lato, sans-serif';
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  letter-spacing: 0.0625em;
+}
+.projectDetails p{
+  font-size: 1.5625em;
+  padding: 0.625em;
+  font-family: 'Lato, sans-serif';
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  letter-spacing: 0.0625em;
+}
+.image {
+  height: auto;
+  width: auto;
+  max-width: 57.0625em;
+  max-height: 80.625em;
+  float: right;
+}
+.center{
+  display: flex;
+  padding-top: 3.375em;
+  padding-bottom: 4.375em;
+  justify-content: center;
+  align-items: center;
+}
+#tag{
+  font-size: 1em;
+  padding: 0.625em;
+  padding-left: 0.3125em;
+  font-family: 'Lato, sans-serif';
+  letter-spacing: 0.0625em;
+}
+#link{
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  padding: 0.625em;
+  font-weight: bolder;
+  font-size:  0.875em;
+  font-family: 'Lato, sans-serif';
+
+}
+#link:hover{
+  text-decoration: underline;
+}
