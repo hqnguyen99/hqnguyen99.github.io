@@ -43,3 +43,17 @@ a.effect{
   transform-origin: bottom left;
   transform: scaleX(1);
 }
+.image{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+@media screen and (min-width: 1024px){
+  .image{
+    width:60%;
+    height: fit-content;
+  }
+}

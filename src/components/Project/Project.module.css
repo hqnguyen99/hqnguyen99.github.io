@@ -6,7 +6,7 @@ a.linkBlock {
   text-decoration: none;
   display: inline-block;
   margin:auto;
-  width: 85%;
+  width: 100%;
   padding: 0.625em;
   box-shadow: 0 0.0625em 2px rgba(0,0,0,0.15);
   transition: box-shadow 0.3s ease-in-out;
@@ -38,7 +38,7 @@ a.linkBlock:hover{
 }
 .image {
   height: auto;
-  width: auto;
+  width: 100%;
   max-width: 57.0625em;
   max-height: 80.625em;
   float: right;
@@ -53,7 +53,7 @@ a.linkBlock:hover{
 #tag{
   font-size: 1em;
   padding: 0.625em;
-  padding-left: 0.3125em;
+  padding-left: 0.625em;
   font-family: 'Lato, sans-serif';
   letter-spacing: 0.0625em;
 }
@@ -67,4 +67,13 @@ a.linkBlock:hover{
 }
 #link:hover{
   text-decoration: underline;
+}
+@media screen and (max-width: 1025px){
+ .image{
+    float:left;
+    padding-left: 0.625em;
+  }
+  .projectDetails h2{
+    padding-bottom: 0.875em;
+  }
 }
