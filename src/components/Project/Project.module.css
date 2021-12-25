@@ -6,7 +6,7 @@ a.linkBlock {
   text-decoration: none;
   display: inline-block;
   margin:auto;
-  width: 100%;
+  width: 90%;
   padding: 0.625em;
   box-shadow: 0 0.0625em 2px rgba(0,0,0,0.15);
   transition: box-shadow 0.3s ease-in-out;
@@ -75,5 +75,8 @@ a.linkBlock:hover{
   }
   .projectDetails h2{
     padding-bottom: 0.875em;
+  }
+  a.linkBlock{
+    width:95%
   }
 }
