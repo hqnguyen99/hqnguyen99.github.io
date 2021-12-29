@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-
-@media screen and (min-width: 767px){
   .navBar ul {
       list-style-type: none;
       margin: 0;
@@ -29,14 +27,7 @@
       text-decoration: underline;
       text-underline-offset: 0.3125em;
     }
-    .flex-container{
-      width: 80%;
-      min-height: 300px;
-      margin: 0 auto;
-      display: -webkit-flex; /* Safari */     
-      display: flex; /* Standard syntax */
-  }
-  .navBar a{
+  .navLogo a{
       letter-spacing: 0.15em;
       float: left;
       color: #222222;
@@ -45,5 +36,3 @@
       font-family: 'Lato, sans-serif';
       font-size: 1.375em;
     }
-
-}

@@ -21,8 +21,8 @@ const Projects = {
 }
 const NavBar = () => {
     return (
-        <div className="flex-container">
-            <div className={styles.navBar}><a>{Name}</a></div>
+        <nav>
+            <nav className={styles.navLogo}><a>{Name}</a></nav>
             <div className={styles.navBar}>
                 <ul >
                     <li ><a href={Projects.link}>{Projects.text}</a></li>
@@ -31,7 +31,7 @@ const NavBar = () => {
 
                 </ul>
             </div>
-        </div>
+        </nav>
     )
 
 }
