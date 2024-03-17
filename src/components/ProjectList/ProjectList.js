@@ -16,7 +16,7 @@ const MazeRunner = {
     'picture': MazeRunnerImage,
     'infor': 'A Mouse-and-Cat webgame for fun',
     'tag': '#Java #SpringBoot',
-    'link': 'https://nameless-shelf-08577.herokuapp.com/',
+    'link': 'https://maze-game-runner-921b462541d3.herokuapp.com/',
     'background_color': '#f5eade'
 };
 
